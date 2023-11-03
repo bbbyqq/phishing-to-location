@@ -1,11 +1,7 @@
 <template>
-  <el-config-provider :locale="locale">
-    <router-view/>
-  </el-config-provider>
+  <Index/>
 </template>
 
 <script setup>
-import zhCn from 'element-plus/lib/locale/lang/zh-cn'
-
-const locale = zhCn
+import Index from './views/Index/Index.vue'
 </script>
