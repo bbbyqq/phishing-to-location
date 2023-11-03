@@ -1,1 +1,0 @@
-import{_ as c}from "./plugin-vue_export-helper.21dcd24c.js";import{o as t,c as _,p as o,f as s,g as a}from "./index.7163e976.js";const d={},r=e=>(o("data-v-22fce2ca"),e=e(),s(),e),n={class:"content"},p=r(()=>a("div",{class:"title"},"404",-1)),i=[p];function f(e,l){return t(),_("div",n,i)}var h=c(d,[["render",f],["__scopeId","data-v-22fce2ca"]]);export{h as default};
