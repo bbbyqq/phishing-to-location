@@ -1,0 +1,64 @@
+#app, body, html {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: #fb838d;
+}
+
+/*滚动条美化*/
+.overflow-scroll {
+  overflow: auto;
+}
+
+.overflow-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.overflow-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(86, 203, 242);
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+}
+
+.overflow-scroll::-webkit-scrollbar-corner {
+   background-color: transparent;
+}
+
+/*提升所有popper权重*/
+.el-popper {
+  z-index: 99999 !important;
+}
+
+.is-message-box {
+  .el-message-box {
+    background: #032a45;
+    border: none;
+
+    .el-message-box__header {
+      .el-message-box__title {
+        color: #ffffff;
+      }
+    }
+
+    .el-message-box__content {
+      color: #ffffff;
+    }
+
+    .el-message-box__btns {
+      .el-button {
+        color: #ffffff;
+        background: transparent;
+      }
+
+      .el-button--primary {
+        background: #409eff;
+      }
+    }
+  }
+}
+
+.el-loading-mask {
+  background: rgba(0, 0, 0, 0.2);
+}
